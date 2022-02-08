@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+
+  &__full {
+    background: var(--primary);
+    color: var(--white);
+    &:hover {
+      background: var(--shade-1);
+    }
+  }
+
+  &__outline {
+    background: var(--white);
+    color: inherit;
+    &:hover {
+      background: inherit;
+      box-shadow: var(--shadow-inside);
+    }
+  }
+}
